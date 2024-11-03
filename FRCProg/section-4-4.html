@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>FRC Prog - Section 4.1</title>
+		<title>FRC Prog - Section 4.4</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
@@ -108,26 +108,26 @@
 									<header class="main">
 										<h1>
 											<center>
-												Section 4.1 - Intro to Command Based Programming
+												Section 4.4 - Working with our Tank Drive Subsystem
 											</center>
 										</h1>
 									</header>
 
 									<div class="video-container" style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0;">
-										<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/NsT-b2abiIs?si=m1KUtkmeh5rl5ylI" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+										<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/g10HnMFUJKQ?si=0XBBhGdoVHDS7AUv" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 									</div>
 
 									<hr class="major" />
 
-									<h2>A New Paradigm</h2>
-									<p>This lesson will introduce you to command-based programming and its framework, focusing on making your robot code more organized and manageable. You will learn how to separate robot functionality into subsystems and commands, allowing for clearer control of different mechanisms. The session will cover how to bind buttons to commands, implement periodic loops in subsystems, and understand the role of the RobotContainer in connecting everything. Additionally, you will explore the CommandScheduler, which manages the execution of commands, enhancing your programming approach as you develop your robot.
+									<h2>Controlling our Tank Drive</h2>
+									<p>This lesson will demonstrate how to create a tank drive command and bind it to a controller for your robot. You will start by establishing a command that interacts with the tank drive subsystem, ensuring it has exclusive access through the addRequirements method. The lesson will explain the importance of using DoubleSupplier for joystick values, allowing continuous access to the latest input. You will then implement the command's execute method to drive the tank using the current joystick values and the end method to stop the robot. Finally, you'll learn to instantiate an Xbox controller for easy button access and set the tank drive command as the default for the subsystem, utilizing lambda expressions for dynamic value updates. The session will conclude with a simulation to verify functionality.
 										</p>
 
 									<hr class="major" />
 
 									<div class="button-container">
-										<a href="section-3-6.html" class="button primary">Previous: Section 3.5+</a>
-										<a href="section-4-2.html" class="button primary">Next: Section 4.2</a>
+										<a href="section-4-3.html" class="button primary">Previous: Section 4.3</a>
+										<a href="section-4-5.html" class="button primary">Next: Section 4.5</a>
 									</div>
 								</section>
 
